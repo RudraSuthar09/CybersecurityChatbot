@@ -1,0 +1,19 @@
+{
+  "generated": "2025-03-30 17:03:05.521588",
+  "sample_phishing_urls": [
+    {
+      "url": "http://example.phishing.com",
+      "submission_time": "2025-03-30T17:01:52+00:00",
+      "verified": true,
+      "verification_time": "2025-03-30T17:05:00+00:00",
+      "target": "Sample Bank"
+    },
+    {
+      "url": "https://fake.login.com",
+      "submission_time": "2025-03-30T16:55:00+00:00",
+      "verified": true,
+      "verification_time": "2025-03-30T17:00:00+00:00",
+      "target": "Social Media"
+    }
+  ]
+}

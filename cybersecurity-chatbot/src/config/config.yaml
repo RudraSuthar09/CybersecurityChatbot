@@ -1,0 +1,33 @@
+# Project Configuration
+project:
+  name: "Cybersecurity Chatbot"
+  version: "1.0.0"
+  author: "RudraSuthar09"
+  created_at: "2025-03-31 07:22:04"
+
+# Data Configuration
+data:
+  nslkdd:
+    train_path: "datasets/intrusion_detection/nslkdd/processed/KDDTrain+.csv"
+    test_path: "datasets/intrusion_detection/nslkdd/processed/KDDTest+.csv"
+    features: 42
+    classes: 24
+
+# Model Configuration
+model:
+  network_analyzer:
+    input_size: 42
+    hidden_size: 512     # Increased for better capacity
+    num_layers: 6        # More layers
+    dropout: 0.3         # Balanced dropout
+    batch_size: 64       # Increased batch size
+    learning_rate: 0.0003 # Adjusted learning rate
+    epochs: 50          # More epochs
+
+# Training Configuration
+training:
+  seed: 42
+  validation_split: 0.2
+  early_stopping_patience: 15
+  device: "cpu"
+  class_weights: true

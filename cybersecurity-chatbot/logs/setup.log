@@ -1,0 +1,16 @@
+2025-03-31 10:26:58,015 - __main__ - INFO - Project Initialization Started
+2025-03-31 10:26:58,015 - __main__ - INFO - Current Date and Time (UTC): 2025-03-31 04:46:12
+2025-03-31 10:26:58,016 - __main__ - INFO - Current User: RudraSuthar09
+2025-03-31 10:26:58,019 - __main__ - ERROR - Error loading configuration: while parsing a block mapping
+  in "src/config/config.yaml", line 32, column 3
+expected <block end>, but found '<scalar>'
+  in "src/config/config.yaml", line 32, column 18
+2025-03-31 10:29:12,006 - __main__ - INFO - Project Initialization Started
+2025-03-31 10:29:12,007 - __main__ - INFO - Current Date and Time (UTC): 2025-03-31 04:46:12
+2025-03-31 10:29:12,008 - __main__ - INFO - Current User: RudraSuthar09
+2025-03-31 10:29:12,014 - __main__ - INFO - Configuration loaded successfully
+2025-03-31 10:29:12,014 - __main__ - INFO - Dataset Status:
+2025-03-31 10:29:12,015 - __main__ - INFO - NSL-KDD Train: Found
+2025-03-31 10:29:12,015 - __main__ - INFO - NSL-KDD Test: Found
+2025-03-31 10:29:12,016 - __main__ - INFO - MITRE ATT&CK: Found
+2025-03-31 10:29:12,016 - __main__ - INFO - Project initialization completed!

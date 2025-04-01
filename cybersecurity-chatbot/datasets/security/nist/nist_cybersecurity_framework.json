@@ -1,0 +1,76 @@
+{
+  "framework_version": "1.1",
+  "last_updated": "2025-03-30",
+  "generated_by": "RudraSuthar09",
+  "generated_at": "2025-03-30 17:06:28",
+  "core_functions": {
+    "IDENTIFY": {
+      "description": "Develop organizational understanding to manage cybersecurity risk to systems, people, assets, data, and capabilities.",
+      "categories": [
+        "Asset Management",
+        "Business Environment",
+        "Governance",
+        "Risk Assessment",
+        "Risk Management Strategy"
+      ]
+    },
+    "PROTECT": {
+      "description": "Develop and implement appropriate safeguards to ensure delivery of critical services.",
+      "categories": [
+        "Identity Management and Access Control",
+        "Awareness and Training",
+        "Data Security",
+        "Information Protection Processes",
+        "Protective Technology"
+      ]
+    },
+    "DETECT": {
+      "description": "Develop and implement appropriate activities to identify the occurrence of a cybersecurity event.",
+      "categories": [
+        "Anomalies and Events",
+        "Security Continuous Monitoring",
+        "Detection Processes"
+      ]
+    },
+    "RESPOND": {
+      "description": "Develop and implement appropriate activities to take action regarding a detected cybersecurity incident.",
+      "categories": [
+        "Response Planning",
+        "Communications",
+        "Analysis",
+        "Mitigation",
+        "Improvements"
+      ]
+    },
+    "RECOVER": {
+      "description": "Develop and implement appropriate activities to maintain plans for resilience and to restore any capabilities or services that were impaired due to a cybersecurity incident.",
+      "categories": [
+        "Recovery Planning",
+        "Improvements",
+        "Communications"
+      ]
+    }
+  },
+  "implementation_tiers": [
+    {
+      "tier": "Tier 1",
+      "name": "Partial",
+      "description": "Risk management practices are not formalized, and risk is managed in an ad hoc manner."
+    },
+    {
+      "tier": "Tier 2",
+      "name": "Risk Informed",
+      "description": "Risk management practices are approved by management but may not be established organization-wide."
+    },
+    {
+      "tier": "Tier 3",
+      "name": "Repeatable",
+      "description": "Organization-wide risk management practices are formally approved and expressed as policy."
+    },
+    {
+      "tier": "Tier 4",
+      "name": "Adaptive",
+      "description": "Organization adapts cybersecurity practices based on previous and current cybersecurity activities."
+    }
+  ]
+}

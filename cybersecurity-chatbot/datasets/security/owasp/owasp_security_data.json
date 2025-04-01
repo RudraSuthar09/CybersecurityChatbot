@@ -1,0 +1,53 @@
+{
+  "OWASP_Top_10_2021": [
+    {
+      "rank": "A01",
+      "category": "Broken Access Control",
+      "description": "Moving up from the fifth position, 94% of applications were tested for some form of broken access control.",
+      "prevention": [
+        "Implement proper access controls",
+        "Deny by default",
+        "Implement rate limiting"
+      ]
+    },
+    {
+      "rank": "A02",
+      "category": "Cryptographic Failures",
+      "description": "Previously known as Sensitive Data Exposure, failures related to cryptography often lead to sensitive data exposure or system compromise.",
+      "prevention": [
+        "Encrypt all sensitive data at rest",
+        "Use strong encryption algorithms",
+        "Proper key management"
+      ]
+    },
+    {
+      "rank": "A03",
+      "category": "Injection",
+      "description": "Injection flaws, such as SQL injection, NoSQL injection, and LDAP injection, occur when untrusted data is sent to an interpreter.",
+      "prevention": [
+        "Use parameterized queries",
+        "Input validation",
+        "Escape special characters"
+      ]
+    }
+  ],
+  "security_guidelines": {
+    "authentication": [
+      "Implement MFA where possible",
+      "Use secure password hashing",
+      "Implement proper session management"
+    ],
+    "authorization": [
+      "Implement role-based access control",
+      "Use principle of least privilege",
+      "Regular access reviews"
+    ],
+    "data_protection": [
+      "Encrypt sensitive data in transit and at rest",
+      "Implement proper key management",
+      "Regular security assessments"
+    ]
+  },
+  "generated": "2025-03-30 17:06:12.385759",
+  "last_updated": "2025-03-30"
+}
