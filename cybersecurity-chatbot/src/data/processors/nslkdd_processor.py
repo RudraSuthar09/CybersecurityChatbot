@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler, LabelEncoder
@@ -14,7 +15,8 @@ class NSLKDDProcessor:
         self.logger.info(f"Current User: RudraSuthar09")
         
         # Load configuration
-        with open('src/config/config.yaml', 'r') as f:
+        config_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'config', 'config.yaml'))
+        with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
         
         # Initialize preprocessing tools
