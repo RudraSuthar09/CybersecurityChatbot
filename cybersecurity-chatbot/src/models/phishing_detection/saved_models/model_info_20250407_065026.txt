@@ -1,0 +1,16 @@
+Model Information:
+=====================================
+Saved on: 20250407_065026
+By user: suhan
+
+Architecture:
+Input dimensions: 30
+Hidden dimensions: [64, 32, 16]
+
+Performance:
+Final training accuracy: 94.08%
+Final validation accuracy: 94.45%
+
+Dataset:
+Total samples: 11055
+Number of features: 30
