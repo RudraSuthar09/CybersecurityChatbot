@@ -17,12 +17,20 @@ data:
 model:
   network_analyzer:
     input_size: 42
-    hidden_size: 512     # Increased for better capacity
-    num_layers: 6        # More layers
-    dropout: 0.3         # Balanced dropout
-    batch_size: 64       # Increased batch size
-    learning_rate: 0.0003 # Adjusted learning rate
-    epochs: 50          # More epochs
+    hidden_size: 512
+    num_layers: 6
+    dropout: 0.3
+    batch_size: 64
+    learning_rate: 0.0003
+    epochs: 50
+
+  anomaly_detector:
+    input_size: 122
+    hidden_sizes: [64, 32]
+    latent_size: 16
+    learning_rate: 0.001
+    epochs: 50
+    batch_size: 64
 
 # Training Configuration
 training:
